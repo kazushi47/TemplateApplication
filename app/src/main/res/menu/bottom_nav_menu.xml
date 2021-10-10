@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_current_meetings"
+        android:icon="@drawable/baseline_record_voice_over_24"
+        android:title="@string/title_current_meetings" />
+
+    <item
+        android:id="@+id/navigation_booking"
+        android:icon="@drawable/baseline_event_available_24"
+        android:title="@string/title_booking" />
+
+    <item
+        android:id="@+id/navigation_histories"
+        android:icon="@drawable/baseline_history_24"
+        android:title="@string/title_histories" />
+
+    <item
+        android:id="@+id/navigation_others"
+        android:icon="@drawable/baseline_apps_24"
+        android:title="@string/title_others" />
+
+</menu>
