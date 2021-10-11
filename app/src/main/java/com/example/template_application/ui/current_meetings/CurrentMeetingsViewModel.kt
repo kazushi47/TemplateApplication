@@ -2,7 +2,6 @@ package com.example.template_application.ui.current_meetings
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.template_application.ui.dashboard.DashboardFragment
 
 /**
  * [CurrentMeetingsViewModel] 用の [ViewModel] 。
