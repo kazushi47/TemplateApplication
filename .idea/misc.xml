@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/drawable/baseline_account_circle_18.xml" value="0.3828125" />
+        <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/drawable/baseline_account_circle_24.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/drawable/baseline_apps_24.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/drawable/baseline_event_available_24.xml" value="0.3828125" />
         <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/drawable/baseline_history_24.xml" value="0.3828125" />
@@ -22,6 +24,7 @@
         <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/layout/histories_fragment.xml" value="0.259963768115942" />
         <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/layout/others_fragment.xml" value="0.259963768115942" />
         <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/TemplateApplication/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

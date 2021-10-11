@@ -1,6 +1,8 @@
 package com.example.template_application
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
@@ -51,5 +53,26 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+    }
+
+    /**
+     * アプリバーのオプションメニューが生成されるときに呼ばれる。
+     *
+     * このタイミングで、[R.menu.main_menu] をオプションメニューとして登録する。
+     * これには、「ログインボタン」が含まれている。
+     */
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return true
+    }
+
+    /**
+     * アプリバーのオプションメニューの項目が選択されたときに呼ばれる。
+     *
+     * 選択された項目が「ログインボタン」だった場合に処理を行う。
+     */
+    override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
+        R.id.menu_login -> true
+        else -> super.onOptionsItemSelected(item)
     }
 }

@@ -2,6 +2,9 @@
     <!-- アプリケーション名 -->
     <string name="app_name">Template Application</string>
 
+    <!-- アプリバーメニュー項目タイトル -->
+    <string name="title_login">ログイン</string>
+
     <!-- ナビゲーションメニュー項目タイトル -->
     <string name="title_current_meetings">会議中</string>
     <string name="title_booking">予約</string>
